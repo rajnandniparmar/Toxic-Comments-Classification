@@ -43,7 +43,7 @@ During the modeling process, we choose multiple different evaluation metrics to 
 - Hamming Loss
 
 #### Basic Model Comparison
-Using Multinomial Naive Bayes as our baseline model, we first used k-fold cross validation and compared the performance of the followingi three models without any hyperparameter tuning: Multinomial Naive Bayes, Logistic Regression, and Linear SVC. Logistic Regression and Linear SVC perform better than Multinomial Naive Bayes.
+Using Multinomial Naive Bayes as our baseline model, we first used k-fold cross validation and compared the performance of the following three models without any hyperparameter tuning: Multinomial Naive Bayes, Logistic Regression, and Linear SVC. Logistic Regression and Linear SVC perform better than Multinomial Naive Bayes.
 
 After checking how these models perform on the test data, we notice that Muninomial Naive Bayes does not perform as well as the other two models while Linear SVC in general out performs the others based on F1 score. 
 
